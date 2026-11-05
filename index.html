@@ -1,118 +1,164 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vi">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Mini Shop</title>
-    <link
-    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
     rel="stylesheet">
 </head>
-<body>
+
+<body class="bg-light">
+
     <header class="bg-primary text-white p-3">
         <div class="container">
-            <h2 class="text-center">MINI SHOP</h2>
+            <h2 class="text-center mb-0">MINI SHOP</h2>
         </div>
     </header>
-        <nav class="bg-light p-3">
-            <div class="container">
-            <a href="#" class="me-3">Trang chủ</a>
-            <a href="#sanpham">Sản phẩm</a>
-            </div>
-        </nav>
-        <section class="container mt-4">
-            <div class="bg-light p-5 text-center rounded">
-                <h1>Chào mừng đến Mini Shop</h1>
-                <p>Mua sắm dễ dàng - Giá tốt mỗi ngày</p>
-                <a href="#sanpham" class="btn btn-primary">
-                Xem sản phẩm
-                </a>
-            </div>
-        </section>
-        <section id="sanpham" class="container mt-4">
-            <h2 class="text-center mb-4">
-            Sản phẩm nổi bật
-            </h2>
-            <div class="row g-3">
-            <div class="col-12 col-md-6 col-lg-3">
-            <div class="card h-100">
-            <img src="images/ao thun.jpg"
-            class="card-img-top"
-            alt="Áo thun">
-            <div class="card-body">
-            <h5 class="card-title">Áo thun</h5>
-            <p class="text-danger fw-bold">
-            199.000đ
-            </p>
-            <a href="#" class="btn btn-primary">
-            Mua ngay
-            </a>
-            </div>
-            </div>
-            </div>
-            
-            <div class="col-12 col-md-6 col-lg-3">
-            <div class="card h-100">
-            <img src="images/aokhoac.jpg"
-            class="card-img-top"
-            alt="Áo thun">
-            <div class="card-body">
-            <h5 class="card-title">Áo Khoác</h5>
-            <p class="text-danger fw-bold">
-            399.000đ
-            </p>
-            <a href="#" class="btn btn-primary">
-            Mua ngay
-            </a>
-            </div>
-            </div>
-            </div>
 
-           
-            <div class="col-12 col-md-6 col-lg-3">
-            <div class="card h-100">
-            <img src="images/quanjean.jpg"class="card-img-top" alt="Áo thun">
-            <div class="card-body">
-            <h5 class="card-title">Quần Jean</h5>
-            <p class="text-danger fw-bold">
-            99.000đ
-            </p>
-            <a href="#" class="btn btn-primary">
-            Mua ngay
-            </a>
-            </div>
-            </div>
-            </div>
+    <nav class="bg-white p-3 shadow-sm">
+        <div class="container">
+            <a href="#" class="text-decoration-none text-dark me-4">Trang chủ</a>
+            <a href="#sanpham" class="text-decoration-none text-dark">Sản phẩm</a>
+        </div>
+    </nav>
 
-            <div class="col-12 col-md-6 col-lg-3">
-            <div class="card h-100">
-            <img src="images/quần short.jpg"
-            class="card-img-top"
-            alt="Áo thun">
-            <div class="card-body">
-            <h5 class="card-title">Quần short</h5>
-            <p class="text-danger fw-bold">
-            59.000đ
+    <section class="container mt-4">
+        <div class="bg-white p-4 text-center rounded shadow-sm">
+            <h1 class="text-primary">Chào mừng đến Mini Shop</h1>
+            <p class="text-secondary mb-3">
+                Mua sắm dễ dàng - Giá tốt mỗi ngày
             </p>
-            <a href="#" class="btn btn-primary">
-            Mua ngay
-            </a>
-            </div>
-            </div>
-            </div>
-            </div>
 
-        </section>
-<footer class="bg-dark text-white text-center p-3 mt-5">
-    <div class="container">
-    <p class="mb-0">
-    © 2026 Mini Shop - Thiết kế bằng Bootstrap 5
+            <a href="#sanpham" class="btn btn-primary">Xem sản phẩm</a>
+        </div>
+    </section>
+
+    
+<section id="sanpham" class="container mt-5">
+
+    <h2 class="text-center mb-2">Sản phẩm nổi bật</h2>
+
+    <p class="text-center text-secondary mb-4">
+        Khám phá các sản phẩm thời trang tại Mini Shop
     </p>
+
+    <div class="row g-4">
+
+        <div class="col-12 col-md-6 col-lg-3">
+            <div class="card h-100 shadow-sm">
+
+                <div class="ratio ratio-4x3">
+                    <img src="images/ao thun.jpg"
+                    class="w-100 h-100 object-fit-cover"
+                    alt="Áo thun">
+                </div>
+
+                <div class="card-body text-center d-flex flex-column">
+                    <h5 class="card-title">Áo thun</h5>
+
+                    <p class="text-danger fw-bold fs-5">
+                        199.000đ
+                    </p>
+
+                    <a href="#" class="btn btn-primary mt-auto">
+                        Mua ngay
+                    </a>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-3">
+            <div class="card h-100 shadow-sm">
+
+                <div class="ratio ratio-4x3">
+                    <img src="images/aokhoac.jpg"
+                    class="w-100 h-100 object-fit-cover"
+                    alt="Áo khoác">
+                </div>
+
+                <div class="card-body text-center d-flex flex-column">
+                    <h5 class="card-title">Áo khoác</h5>
+
+                    <p class="text-danger fw-bold fs-5">
+                        399.000đ
+                    </p>
+
+                    <a href="#" class="btn btn-primary mt-auto">
+                        Mua ngay
+                    </a>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-3">
+            <div class="card h-100 shadow-sm">
+
+                <div class="ratio ratio-4x3">
+                    <img src="images/quanjean.jpg"
+                    class="w-100 h-100 object-fit-cover"
+                    alt="Quần Jean">
+                </div>
+
+                <div class="card-body text-center d-flex flex-column">
+                    <h5 class="card-title">Quần Jean</h5>
+
+                    <p class="text-danger fw-bold fs-5">
+                        99.000đ
+                    </p>
+
+                    <a href="#" class="btn btn-primary mt-auto">
+                        Mua ngay
+                    </a>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-3">
+            <div class="card h-100 shadow-sm">
+
+                <div class="ratio ratio-4x3">
+                    <img src="images/quần short.jpg"
+                    class="w-100 h-100 object-fit-cover"
+                    alt="Quần short">
+                </div>
+
+                <div class="card-body text-center d-flex flex-column">
+                    <h5 class="card-title">Quần short</h5>
+
+                    <p class="text-danger fw-bold fs-5">
+                        59.000đ
+                    </p>
+
+                    <a href="#" class="btn btn-primary mt-auto">
+                        Mua ngay
+                    </a>
+                </div>
+
+            </div>
+        </div>
+
     </div>
-</footer>
-    <script
-    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js">
+</section>
+
+  
+    <footer class="bg-dark text-white text-center p-3 mt-5">
+        <div class="container">
+            <p class="mb-0">
+                © 2026 Mini Shop - Thiết kế bằng Bootstrap 5
+            </p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js">
     </script>
 
 </body>
 </html>
+
+
